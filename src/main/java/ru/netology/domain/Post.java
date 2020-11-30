@@ -171,4 +171,52 @@ public class Post {
     public void setPostponedId(int postponedId) {
         this.postponedId = postponedId;
     }
+
+    public RepostInfo getRepostInfo() {
+        return repostInfo;
+    }
+
+    public void setRepostInfo(RepostInfo repostInfo) {
+        this.repostInfo = repostInfo;
+    }
+
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public Geo getGeo() {
+        return geo;
+    }
+
+    public void setGeo(Geo geo) {
+        this.geo = geo;
+    }
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public Views getViews() {
+        return views;
+    }
+
+    public void setViews(Views views) {
+        this.views = views;
+    }
+
+    public PostSource getPostSource() {
+        return postSource;
+    }
+
+    public void setPostSource(PostSource postSource) {
+        this.postSource = postSource;
+    }
 }
